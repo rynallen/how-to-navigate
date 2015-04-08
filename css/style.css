@@ -425,4 +425,13 @@ body {
   margin: 0 auto; }
 
 .yellow {
-  background-color: yellow; }
+  background-color: #EAA501; }
+
+.pink {
+  background-color: #F39; }
+
+.blue {
+  background-color: #B3D4FC; }
+
+.red {
+  background-color: #E34C40; }
