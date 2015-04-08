@@ -2,6 +2,7 @@
 @import "bitters/*";
 
 body {
+  background-color: #e4e4e4;
   padding: 5%;
 }
 
@@ -40,8 +41,8 @@ body {
   margin-bottom: 4em;
 
   span {
-    font-weight: 800;
-    text-decoration: underline;
+    color: #dc322f;
+    font-weight: 700;
     padding: 0 0.5em 0.5em 0;
   }
 }

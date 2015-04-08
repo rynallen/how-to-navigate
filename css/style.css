@@ -383,6 +383,7 @@ picture {
   max-width: 100%; }
 
 body {
+  background-color: #e4e4e4;
   padding: 5%; }
 
 .outer-container {
@@ -418,8 +419,8 @@ body {
       width: 70%;
       font-size: 150%; } }
   .intro span {
-    font-weight: 800;
-    text-decoration: underline;
+    color: #dc322f;
+    font-weight: 700;
     padding: 0 0.5em 0.5em 0; }
 
 .samples {
