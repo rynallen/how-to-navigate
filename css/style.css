@@ -44,8 +44,8 @@ button {
 fieldset {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
-  margin: 0 0 0.8em;
-  padding: 1.6em; }
+  margin: 0 0 0.725em;
+  padding: 1.45em; }
 
 input,
 label,
@@ -56,7 +56,7 @@ select {
 
 label {
   font-weight: 600;
-  margin-bottom: 0.4em; }
+  margin-bottom: 0.3625em; }
   label.required::after {
     content: "*"; }
   label abbr {
@@ -72,8 +72,8 @@ textarea {
   box-sizing: border-box;
   font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
-  margin-bottom: 0.8em;
-  padding: 0.5333333333em;
+  margin-bottom: 0.725em;
+  padding: 0.4833333333em;
   transition: border-color;
   width: 100%; }
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
@@ -100,14 +100,14 @@ input[type="search"] {
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
-  margin-right: 0.4em; }
+  margin-right: 0.3625em; }
 
 input[type="file"] {
-  padding-bottom: 0.8em;
+  padding-bottom: 0.725em;
   width: 100%; }
 
 select {
-  margin-bottom: 1.6em;
+  margin-bottom: 1.45em;
   max-width: 100%;
   width: auto; }
 
@@ -117,10 +117,10 @@ ol {
   margin: 0;
   padding: 0; }
 dl {
-  margin-bottom: 0.8em; }
+  margin-bottom: 0.725em; }
   dl dt {
     font-weight: bold;
-    margin-top: 0.8em; }
+    margin-top: 0.725em; }
   dl dd {
     margin: 0; }
 
@@ -130,19 +130,19 @@ table {
   -ms-font-feature-settings: "kern", "liga", "tnum";
   font-feature-settings: "kern", "liga", "tnum";
   border-collapse: collapse;
-  margin: 0.8em 0;
+  margin: 0.725em 0;
   table-layout: fixed;
   width: 100%; }
 
 th {
   border-bottom: 1px solid #b7b7b7;
   font-weight: 600;
-  padding: 0.8em 0;
+  padding: 0.725em 0;
   text-align: left; }
 
 td {
   border-bottom: 1px solid #ddd;
-  padding: 0.8em 0; }
+  padding: 0.725em 0; }
 
 tr,
 td,
@@ -158,7 +158,7 @@ body {
   color: #272727;
   font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
-  line-height: 1.6; }
+  line-height: 1.45; }
 
 h1,
 h2,
@@ -169,10 +169,10 @@ h6 {
   font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   line-height: 1.2;
-  margin: 0 0 0.8em; }
+  margin: 0 0 0.725em; }
 
 p {
-  margin: 0 0 0.8em; }
+  margin: 0 0 0.725em; }
 
 a {
   color: #477dca;
@@ -188,7 +188,7 @@ hr {
   border-left: none;
   border-right: none;
   border-top: none;
-  margin: 1.6em 0; }
+  margin: 1.45em 0; }
 
 img,
 picture {
@@ -231,8 +231,8 @@ button {
 fieldset {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
-  margin: 0 0 0.8em;
-  padding: 1.6em; }
+  margin: 0 0 0.725em;
+  padding: 1.45em; }
 
 input,
 label,
@@ -243,7 +243,7 @@ select {
 
 label {
   font-weight: 600;
-  margin-bottom: 0.4em; }
+  margin-bottom: 0.3625em; }
   label.required::after {
     content: "*"; }
   label abbr {
@@ -259,8 +259,8 @@ textarea {
   box-sizing: border-box;
   font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
-  margin-bottom: 0.8em;
-  padding: 0.5333333333em;
+  margin-bottom: 0.725em;
+  padding: 0.4833333333em;
   transition: border-color;
   width: 100%; }
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
@@ -287,14 +287,14 @@ input[type="search"] {
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
-  margin-right: 0.4em; }
+  margin-right: 0.3625em; }
 
 input[type="file"] {
-  padding-bottom: 0.8em;
+  padding-bottom: 0.725em;
   width: 100%; }
 
 select {
-  margin-bottom: 1.6em;
+  margin-bottom: 1.45em;
   max-width: 100%;
   width: auto; }
 
@@ -304,10 +304,10 @@ ol {
   margin: 0;
   padding: 0; }
 dl {
-  margin-bottom: 0.8em; }
+  margin-bottom: 0.725em; }
   dl dt {
     font-weight: bold;
-    margin-top: 0.8em; }
+    margin-top: 0.725em; }
   dl dd {
     margin: 0; }
 
@@ -317,19 +317,19 @@ table {
   -ms-font-feature-settings: "kern", "liga", "tnum";
   font-feature-settings: "kern", "liga", "tnum";
   border-collapse: collapse;
-  margin: 0.8em 0;
+  margin: 0.725em 0;
   table-layout: fixed;
   width: 100%; }
 
 th {
   border-bottom: 1px solid #b7b7b7;
   font-weight: 600;
-  padding: 0.8em 0;
+  padding: 0.725em 0;
   text-align: left; }
 
 td {
   border-bottom: 1px solid #ddd;
-  padding: 0.8em 0; }
+  padding: 0.725em 0; }
 
 tr,
 td,
@@ -345,7 +345,7 @@ body {
   color: #272727;
   font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
-  line-height: 1.6; }
+  line-height: 1.45; }
 
 h1,
 h2,
@@ -356,10 +356,10 @@ h6 {
   font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   line-height: 1.2;
-  margin: 0 0 0.8em; }
+  margin: 0 0 0.725em; }
 
 p {
-  margin: 0 0 0.8em; }
+  margin: 0 0 0.725em; }
 
 a {
   color: #477dca;
@@ -375,7 +375,7 @@ hr {
   border-left: none;
   border-right: none;
   border-top: none;
-  margin: 1.6em 0; }
+  margin: 1.45em 0; }
 
 img,
 picture {
@@ -383,6 +383,7 @@ picture {
   max-width: 100%; }
 
 body {
+  padding: 5%;
   font-size: 85%; }
   @media screen and (min-width: 33.75em) {
     body {
@@ -404,8 +405,24 @@ body {
     display: table; }
 
 .image-container {
-  width: 50%;
-  border: 2px solid darkgrey;
+  width: 75%;
+  margin-bottom: 4em;
+  padding: 0.5em;
   border-radius: 3px; }
   .image-container img {
     display: block; }
+
+.intro {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 4em; }
+  .intro span {
+    font-weight: 800;
+    text-decoration: underline;
+    padding: 0 0.5em 0.5em 0; }
+
+.samples {
+  margin: 0 auto; }
+
+.yellow {
+  background-color: yellow; }

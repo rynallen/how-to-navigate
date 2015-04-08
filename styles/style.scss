@@ -2,6 +2,7 @@
 @import "bitters/*";
 
 body {
+  padding: 5%;
 
   font-size: 85%;
 
@@ -21,17 +22,35 @@ body {
 }
 
 .image-container {
-  width: 50%;
-  border: 2px solid darkgrey;
+  width: 75%;
+  margin-bottom: 4em;
+  padding: 0.5em;
+
   border-radius: 3px;
   img {
     display: block;
   }
 }
 
+.intro {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 4em;
 
+  span {
+    font-weight: 800;
+    text-decoration: underline;
+    padding: 0 0.5em 0.5em 0;
+  }
+}
 
+.samples {
+  margin: 0 auto;
+}
 
+.yellow {
+  background-color: yellow;
+}
 
 
 
