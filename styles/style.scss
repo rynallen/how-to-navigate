@@ -2,7 +2,6 @@
 @import "bitters/*";
 
 body {
-  background-color: #F4EBD3;
 
   font-size: 85%;
 
@@ -21,31 +20,13 @@ body {
   @include outer-container;
 }
 
-article {
-  width: 85%;
-  margin: 200px auto 0;
-
-  @include media($small-screen) {
-    width: 80%; 
+.image-container {
+  width: 50%;
+  border: 2px solid darkgrey;
+  border-radius: 3px;
+  img {
+    display: block;
   }
-  @include media($medium-screen) {
-    width: 66%; 
-  }
-
-  @include media($large-screen) {
-    width: 58%;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-}
-
-code {
-  font-size: 0.85em;
-  font-family: Consolas;
-  background: lighten(lightgrey, 11%);
-  padding: 0.2em 0.3em;
 }
 
 

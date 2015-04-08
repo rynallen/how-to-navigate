@@ -22,7 +22,7 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   font-weight: 600;
   line-height: 1;
@@ -51,7 +51,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em; }
 
 label {
@@ -70,7 +70,7 @@ textarea {
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   margin-bottom: 0.8em;
   padding: 0.5333333333em;
@@ -156,7 +156,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #272727;
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   line-height: 1.6; }
 
@@ -166,7 +166,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   line-height: 1.2;
   margin: 0 0 0.8em; }
@@ -209,7 +209,7 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   font-weight: 600;
   line-height: 1;
@@ -238,7 +238,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em; }
 
 label {
@@ -257,7 +257,7 @@ textarea {
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   box-sizing: border-box;
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   margin-bottom: 0.8em;
   padding: 0.5333333333em;
@@ -343,7 +343,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #272727;
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   line-height: 1.6; }
 
@@ -353,7 +353,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "ff-meta-serif-web-pro", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  font-family: "franklin-gothic-urw", "Helvetica Neue", Arial;
   font-size: 1em;
   line-height: 1.2;
   margin: 0 0 0.8em; }
@@ -383,7 +383,6 @@ picture {
   max-width: 100%; }
 
 body {
-  background-color: #F4EBD3;
   font-size: 85%; }
   @media screen and (min-width: 33.75em) {
     body {
@@ -404,23 +403,9 @@ body {
     content: "";
     display: table; }
 
-article {
-  width: 85%;
-  margin: 200px auto 0; }
-  @media screen and (min-width: 33.75em) {
-    article {
-      width: 80%; } }
-  @media screen and (min-width: 50.625em) {
-    article {
-      width: 66%; } }
-  @media screen and (min-width: 60em) {
-    article {
-      width: 58%; } }
-  article h1 {
-    font-size: 1.5em; }
-
-code {
-  font-size: 0.85em;
-  font-family: Consolas;
-  background: #efefef;
-  padding: 0.2em 0.3em; }
+.image-container {
+  width: 50%;
+  border: 2px solid darkgrey;
+  border-radius: 3px; }
+  .image-container img {
+    display: block; }
